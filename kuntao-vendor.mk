@@ -463,29 +463,16 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/lenovo/kuntao/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
-    vendor/lenovo/kuntao/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
-    vendor/lenovo/kuntao/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
-    vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
-    vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/lenovo/kuntao/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/kuntao/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
     vendor/lenovo/kuntao/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
-    vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/lenovo/kuntao/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/lenovo/kuntao/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/lenovo/kuntao/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -726,14 +713,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
@@ -919,9 +898,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -929,8 +905,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     datastatusnotification \
-    ims \
-    imssettings \
     shutdownlistener \
     CNEService \
     qcrilmsgtunnel \

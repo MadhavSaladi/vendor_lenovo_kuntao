@@ -120,6 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
+    vendor/lenovo/kuntao/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
+    vendor/lenovo/kuntao/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/kuntao/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
@@ -163,6 +165,24 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libactuator_dw9767_kuntaoof.so:system/vendor/lib/libactuator_dw9767_kuntaoof.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libactuator_dw9767_kuntaosy.so:system/vendor/lib/libactuator_dw9767_kuntaosy.so \
@@ -262,6 +282,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -388,6 +410,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/kuntao/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lenovo/kuntao/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/lenovo/kuntao/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/lenovo/kuntao/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/lenovo/kuntao/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lenovo/kuntao/proprietary/bin/iop:system/bin/iop \
     vendor/lenovo/kuntao/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/kuntao/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -713,6 +739,24 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
@@ -790,6 +834,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
@@ -905,6 +951,8 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     datastatusnotification \
+    ims \
+    imssettings \
     shutdownlistener \
     CNEService \
     qcrilmsgtunnel \
